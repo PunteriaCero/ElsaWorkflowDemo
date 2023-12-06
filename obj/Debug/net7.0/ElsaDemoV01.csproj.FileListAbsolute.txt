@@ -1,0 +1,178 @@
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\appsettings.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.staticwebassets.runtime.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.exe
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.deps.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.runtimeconfig.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\ElsaDemoV01.pdb
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.csproj.AssemblyReference.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.AssemblyInfoInputs.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.AssemblyInfo.cs
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.csproj.CoreCompileInputs.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.RazorAssemblyInfo.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.RazorAssemblyInfo.cs
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets\msbuild.ElsaDemoV01.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets\msbuild.build.ElsaDemoV01.props
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ElsaDemoV01.props
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ElsaDemoV01.props
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\scopedcss\bundle\ElsaDemoV01.styles.css
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\scopedcss\projectbundle\ElsaDemoV01.bundle.scp.css
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\refint\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.pdb
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.genruntimeconfig.cache
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ref\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\DistributedLock.Core.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\DistributedLock.FileSystem.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Abstractions.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Activities.Console.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Core.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Designer.Components.Web.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Scripting.JavaScript.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Scripting.Liquid.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Server.Api.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Server.Core.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Esprima.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Fluid.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Humanizer.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Jint.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\MediatR.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NetBox.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NodaTime.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NodaTime.Serialization.JsonNet.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NodaTime.Serialization.SystemTextJson.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Open.Linq.AsyncExtensions.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Parlot.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Rebus.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Rebus.Microsoft.Extensions.Logging.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Rebus.ServiceProvider.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Scrutor.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Storage.Net.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\System.Linq.Async.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\TimeZoneConverter.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\obj\Debug\net7.0\ElsaDemoV01.csproj.CopyComplete
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\DotLiquid.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Elsa.Activities.Http.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\Namotion.Reflection.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NJsonSchema.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NJsonSchema.CodeGeneration.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\NJsonSchema.CodeGeneration.TypeScript.dll
+C:\Users\rrios\Documents\Baufest\ELSAWORKFLOW\ElsaDemoV01\bin\Debug\net7.0\it\DotLiquid.resources.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\appsettings.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.staticwebassets.runtime.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.exe
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.deps.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.runtimeconfig.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\ElsaDemoV01.pdb
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\DistributedLock.Core.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\DistributedLock.FileSystem.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\DotLiquid.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Abstractions.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Activities.Console.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Activities.Http.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Core.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Designer.Components.Web.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Scripting.JavaScript.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Scripting.Liquid.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Server.Api.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Elsa.Server.Core.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Esprima.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Fluid.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Humanizer.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Jint.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\LinqKit.Core.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\MediatR.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Namotion.Reflection.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NetBox.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NJsonSchema.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NJsonSchema.CodeGeneration.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NJsonSchema.CodeGeneration.TypeScript.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NodaTime.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NodaTime.Serialization.JsonNet.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\NodaTime.Serialization.SystemTextJson.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Open.Linq.AsyncExtensions.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Parlot.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Rebus.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Rebus.Microsoft.Extensions.Logging.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Rebus.ServiceProvider.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Scrutor.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Storage.Net.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\System.Linq.Async.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\TimeZoneConverter.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\bin\Debug\net7.0\it\DotLiquid.resources.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.csproj.AssemblyReference.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.AssemblyInfoInputs.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.AssemblyInfo.cs
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.csproj.CoreCompileInputs.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.RazorAssemblyInfo.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.RazorAssemblyInfo.cs
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets\msbuild.ElsaDemoV01.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets\msbuild.build.ElsaDemoV01.props
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ElsaDemoV01.props
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ElsaDemoV01.props
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\scopedcss\bundle\ElsaDemoV01.styles.css
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\scopedcss\projectbundle\ElsaDemoV01.bundle.scp.css
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.csproj.CopyComplete
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\refint\ElsaDemoV01.dll
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.pdb
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ElsaDemoV01.genruntimeconfig.cache
+C:\Users\rrios\Documents\Code\Elsa Workflow\ElsaWorkflowDemo\obj\Debug\net7.0\ref\ElsaDemoV01.dll
