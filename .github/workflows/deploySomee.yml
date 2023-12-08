@@ -18,8 +18,8 @@ jobs:
       - name: Upload ftp
         uses: GenieTim/ftp-action@v4.0.1
         with:
-          host: elsacoredemo.somee.com
+          host: ftp://elsacoredemo.somee.com/www.elsacoredemo.somee.com
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           localDir: "./bin/Release/net7.0/publish"
-          remoteDir: "/."
+          remoteDir: "/"
