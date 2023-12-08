@@ -14,11 +14,12 @@ jobs:
       - name: Build and Publish
         run: dotnet publish -c Release
 
-      - name: Deploy over FTP
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      - uses: actions/checkout@v2
+      - name: Upload ftp
+        uses: genietim/ftp-action@releases/v4
         with:
-          server: elsacoredemo.somee.com
-          username: ${{ secrets.FTP_USERNAME }}
+          host: elsacoredemo.somee.com
+          user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./bin/Release/net7.0/publish
-          remote-dir: /.
+          localDir: "./bin/Release/net7.0/publish"
+          remoteDir: "/."
