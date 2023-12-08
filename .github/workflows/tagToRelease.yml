@@ -16,6 +16,9 @@ jobs:
       - name: 🚚 Build and Publish
         run: dotnet publish -c Release -o publish
 
+      - name: Ruta
+        run: pwd
+
       - name: Listado
         run: ls 
         
