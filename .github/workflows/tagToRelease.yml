@@ -41,6 +41,6 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./ElsaWorkflowDemo/publish/*
+          asset_path: ./publish/*
           asset_name: MyApp.zip  # Adjust the asset name
           asset_content_type: application/zip
