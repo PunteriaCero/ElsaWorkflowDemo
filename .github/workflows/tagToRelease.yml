@@ -16,6 +16,9 @@ jobs:
       - name: 🚚 Build and Publish
         run: dotnet publish -c Release -o publish
 
+      - name: Listado
+        run: ls 
+        
       - name: Get tag name
         id: get_tag
         run: echo "::set-output name=TAG_NAME::$(git tag --points-at ${{ github.sha }})"
