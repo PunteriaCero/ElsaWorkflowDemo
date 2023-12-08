@@ -2,23 +2,23 @@ on:
   push:
     branches:
       - main
+name: 🚀 Deploy website on push
 
 jobs:
   deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build and Publish
+      - name: 🚚 Build and Publish
         run: dotnet publish -c Release
       
-      - name: Upload ftp
-        uses: GenieTim/ftp-action@v4.0.1
+      - name: 📂 Upload ftp
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: elsacoredemo.somee.com
-          user: ${{ secrets.FTP_USERNAME }}
+          server: elsacoredemo.somee.com
+          user: hn8888
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "./bin/Release/net7.0/publish"
-          remoteDir: "www.elsacoredemo.somee.com"
