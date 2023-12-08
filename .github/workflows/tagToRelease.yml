@@ -13,11 +13,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: 🚚 Build and Publish
-        run: dotnet publish -c Release -o publish
-
-      - name: Ruta
-        run: pwd
+      #- name: 🚚 Build and Publish
+      #  run: dotnet publish -c Release -o publish
 
       - name: Listado
         run: ls 
@@ -38,6 +35,9 @@ jobs:
             Release notes for ${{ steps.get_tag.outputs.TAG_NAME }}
           draft: false
           prerelease: false
+          
+      - name: Ruta
+        run: pwd    
 
       - name: Upload Release Assets
         id: upload_release_assets
@@ -47,3 +47,6 @@ jobs:
           asset_path: ./publish/*
           asset_name: MyApp.zip  # Adjust the asset name
           asset_content_type: application/zip
+      
+      - name: Ruta
+        run: pwd
