@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rrios\\Documents\\Code\\Elsa Workflow\\ElsaWorkflowDemo\\ElsaDemoV01.csproj": {}
+    "C:\\Users\\hlavrencic\\repos\\ElsaWorkflowDemo\\ElsaDemoV01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rrios\\Documents\\Code\\Elsa Workflow\\ElsaWorkflowDemo\\ElsaDemoV01.csproj": {
+    "C:\\Users\\hlavrencic\\repos\\ElsaWorkflowDemo\\ElsaDemoV01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rrios\\Documents\\Code\\Elsa Workflow\\ElsaWorkflowDemo\\ElsaDemoV01.csproj",
+        "projectUniqueName": "C:\\Users\\hlavrencic\\repos\\ElsaWorkflowDemo\\ElsaDemoV01.csproj",
         "projectName": "ElsaDemoV01",
-        "projectPath": "C:\\Users\\rrios\\Documents\\Code\\Elsa Workflow\\ElsaWorkflowDemo\\ElsaDemoV01.csproj",
-        "packagesPath": "C:\\Users\\rrios\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rrios\\Documents\\Code\\Elsa Workflow\\ElsaWorkflowDemo\\obj\\",
+        "projectPath": "C:\\Users\\hlavrencic\\repos\\ElsaWorkflowDemo\\ElsaDemoV01.csproj",
+        "packagesPath": "C:\\Users\\hlavrencic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hlavrencic\\repos\\ElsaWorkflowDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rrios\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hlavrencic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

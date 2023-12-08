@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ElsaDemoV01.props" />
-</Project>
