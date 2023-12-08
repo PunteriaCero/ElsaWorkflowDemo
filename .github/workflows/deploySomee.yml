@@ -13,13 +13,12 @@ jobs:
 
       - name: Build and Publish
         run: dotnet publish -c Release
-
-      - uses: actions/checkout@v2
+      
       - name: Upload ftp
         uses: GenieTim/ftp-action@v4.0.1
         with:
-          host: ftp://elsacoredemo.somee.com/www.elsacoredemo.somee.com
+          host: elsacoredemo.somee.com
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           localDir: "./bin/Release/net7.0/publish"
-          remoteDir: "/"
+          remoteDir: "www.elsacoredemo.somee.com"
