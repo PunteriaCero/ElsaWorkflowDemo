@@ -475,3 +475,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/.vs/*
+/obj/*
+/obj/Debug/net7.0/ElsaDemoV01.assets.cache
+/obj/Debug/net7.0/ElsaDemoV01.csproj.AssemblyReference.cache
+/obj/ElsaDemoV01.csproj.nuget.dgspec.json
+/obj/ElsaDemoV01.csproj.nuget.g.props
+/obj/ElsaDemoV01.csproj.nuget.g.targets
+/obj/project.assets.json
+/obj/project.nuget.cache
