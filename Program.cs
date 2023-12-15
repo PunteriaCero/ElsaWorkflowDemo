@@ -1,11 +1,19 @@
+using Elsa.Persistence.EntityFramework.Core.Extensions;
+using Elsa.Persistence.EntityFramework.Sqlite;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services
+    .AddControllersWithViews();
 
 // Agregamos referencia Elsa Workflow.
-builder.Services.AddElsa(options => options.AddHttpActivities())
+builder.Services
+    .AddElsa(options => options.AddHttpActivities())
     .AddElsaApiEndpoints();
+
+builder.Services
+    .AddElsa(options => options.UseEntityFrameworkPersistence(ef => ef.UseSqlite()));
 
 var app = builder.Build();
 
