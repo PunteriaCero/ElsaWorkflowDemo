@@ -15,7 +15,9 @@
 	<PackageReference Include="Elsa.Scheduling" Version="3.0.0" />
 	<PackageReference Include="Elsa.Workflows.Api" Version="3.0.0" />
 	<PackageReference Include="Elsa.CSharp" Version="3.0.0" />
-	
+	<PackageReference Include="Azure.Monitor.OpenTelemetry.AspNetCore" Version="1.0.0" />
+	  
+
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,6 @@ using Elsa.Studio.Login.HttpMessageHandlers;
 using Elsa.Studio.Shell.Extensions;
 using Elsa.Studio.Workflows.Extensions;
 using Elsa.Studio.Workflows.Designer.Extensions;
-using Elsa.Api.Client.Options;
 
 // Build the host.
 var builder = WebApplication.CreateBuilder(args);
