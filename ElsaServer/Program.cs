@@ -2,11 +2,17 @@ using Elsa.EntityFrameworkCore.Modules.Management;
 using Elsa.EntityFrameworkCore.Modules.Runtime;
 using Elsa.Extensions;
 using Azure.Monitor.OpenTelemetry.AspNetCore;
+using Microsoft.AspNetCore.Mvc.Authorization;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllers(
+    opts =>
+    {
+        //opts.Filters.Add(new AllowAnonymousFilter());
+    });
 
 // Agregamos referencia Elsa Workflow.
 builder.Services.AddElsa(elsa =>
@@ -62,10 +68,15 @@ builder.Services.AddCors(cors => cors
 // Add Health Checks.
 builder.Services.AddHealthChecks();
 
+
 //builder.Services.AddOpenTelemetry().UseAzureMonitor();
 
 // Build the web application.
 var app = builder.Build();
+
+if (builder.Environment.IsDevelopment())
+{
+}
 
 // Configure web application's middleware pipeline.
 app.UseCors();
