@@ -1,0 +1,340 @@
+{
+	"info": {
+		"_postman_id": "f6e8c750-ede9-4f05-9546-3ea0e6861d97",
+		"name": "ELSA3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": \"workflow12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5000/workflows/muestreo1_estapa1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"workflows",
+						"muestreo1_estapa1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HTTP Backend API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/workflows/users/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"workflows",
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"6\",\r\n    \"name\":\"Jose\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5000/workflows/test1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"workflows",
+						"test1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Features",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/features/installed",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"features",
+						"installed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WorkflowDefs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/workflow-definitions?versionOptions=Latest&Page=0&PageSize=10&OrderDirection=Ascending",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"workflow-definitions"
+					],
+					"query": [
+						{
+							"key": "versionOptions",
+							"value": "Latest"
+						},
+						{
+							"key": "Page",
+							"value": "0"
+						},
+						{
+							"key": "PageSize",
+							"value": "10"
+						},
+						{
+							"key": "OrderDirection",
+							"value": "Ascending"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WorkflowInstances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/workflow-instances?Page=0&PageSize=10&OrderDirection=Descending",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"workflow-instances"
+					],
+					"query": [
+						{
+							"key": "Page",
+							"value": "0"
+						},
+						{
+							"key": "PageSize",
+							"value": "10"
+						},
+						{
+							"key": "OrderDirection",
+							"value": "Descending"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/workflows/test2_paso1?s1=tantos&s2=99&workflowInstanceId=9286eb9013f243e9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"workflows",
+						"test2_paso1"
+					],
+					"query": [
+						{
+							"key": "s1",
+							"value": "tantos"
+						},
+						{
+							"key": "s2",
+							"value": "99"
+						},
+						{
+							"key": "workflowInstanceId",
+							"value": "9286eb9013f243e9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WfJournals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/workflow-instances/d415a83cb8098d87/journal",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"workflow-instances",
+						"d415a83cb8098d87",
+						"journal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setEnvironmentVariable(\"token\", jsonData.accessToken);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/identity/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"identity",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WorkflowDefsById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5000/elsa/api/workflow-definitions/694022061a64713f/versions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"workflow-definitions",
+						"694022061a64713f",
+						"versions"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
