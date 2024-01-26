@@ -55,6 +55,7 @@ builder.Services.AddElsa(elsa =>
 
     // Register custom workflows from the application, if any.
     elsa.AddWorkflowsFrom<Program>();
+    elsa.AddSwagger();
 });
 
 // Configure CORS to allow designer app hosted on a different origin to invoke the APIs.
@@ -74,12 +75,14 @@ builder.Services.AddHealthChecks();
 // Build the web application.
 var app = builder.Build();
 
-if (builder.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
+    //app.UseSwaggerUI();
 }
 
 // Configure web application's middleware pipeline.
 app.UseCors();
+app.MapHealthChecks("/");
 app.UseRouting(); // Required for SignalR.
 app.UseAuthentication();
 app.UseAuthorization();
