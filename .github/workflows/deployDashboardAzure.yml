@@ -1,4 +1,4 @@
-name: Deploy Elsa server and Dashboard to Azure Web App
+name: Deploy Elsa Dashboard to Azure Web App
 
 on:
   push:
