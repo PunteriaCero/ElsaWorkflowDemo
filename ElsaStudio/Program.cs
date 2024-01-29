@@ -9,7 +9,10 @@ using Elsa.Studio.Workflows.Designer.Extensions;
 
 // Build the host.
 var builder = WebApplication.CreateBuilder(args);
-var configuration = builder.Configuration;
+builder.Configuration
+    .SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: false, reloadOnChange: true);
 
 // Register Razor services.
 builder.Services.AddRazorPages();
@@ -21,10 +24,10 @@ builder.Services.AddServerSideBlazor(options =>
 
 // Register shell services and modules.
 builder.Services.AddCore();
-builder.Services.AddShell(options => configuration.GetSection("Shell").Bind(options));
+builder.Services.AddShell(options => builder.Configuration.GetSection("Shell").Bind(options));
 builder.Services.AddRemoteBackend(
     elsaClient => elsaClient.AuthenticationHandler = typeof(AuthenticatingApiHttpMessageHandler),
-    options => configuration.GetSection("Backend").Bind(options));
+    options => builder.Configuration.GetSection("Backend").Bind(options));
 builder.Services.AddLoginModule();
 builder.Services.AddDashboardModule();
 builder.Services.AddWorkflowsModule();
