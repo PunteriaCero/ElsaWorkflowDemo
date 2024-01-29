@@ -37,10 +37,9 @@ jobs:
       # Run dotnet build and publish
       - name: dotnet build and publish
         run: |
-          cd ElsaServer
           dotnet restore
-          dotnet build --configuration Release
-          dotnet publish -c Release --property:PublishDir='${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
+          dotnet build ElsaServer --configuration Release
+          dotnet publish ElsaServer -c Release --property:PublishDir='${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
           
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
