@@ -35,6 +35,72 @@
 			"response": []
 		},
 		{
+			"name": "test1_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": \"workflow12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/workflows/muestreo1_estapa1?workflowInstanceId=d72c79f2b0438d55",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"workflows",
+						"muestreo1_estapa1"
+					],
+					"query": [
+						{
+							"key": "workflowInstanceId",
+							"value": "d72c79f2b0438d55"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test3_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"var1\": \"workflow12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/workflows/wf_test3",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"workflows",
+						"wf_test3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "HTTP Backend API",
 			"request": {
 				"method": "GET",
@@ -107,6 +173,29 @@
 			"response": []
 		},
 		{
+			"name": "Features2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/elsa/api/features/installed",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"elsa",
+						"api",
+						"features",
+						"installed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "WorkflowDefs",
 			"request": {
 				"method": "GET",
@@ -118,6 +207,46 @@
 						"localhost"
 					],
 					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"workflow-definitions"
+					],
+					"query": [
+						{
+							"key": "versionOptions",
+							"value": "Latest"
+						},
+						{
+							"key": "Page",
+							"value": "0"
+						},
+						{
+							"key": "PageSize",
+							"value": "10"
+						},
+						{
+							"key": "OrderDirection",
+							"value": "Ascending"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WorkflowDefs2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/elsa/api/workflow-definitions?versionOptions=Latest&Page=0&PageSize=10&OrderDirection=Ascending",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
 					"path": [
 						"elsa",
 						"api",
@@ -186,7 +315,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/workflows/test2_paso1?s1=tantos&s2=99&workflowInstanceId=9286eb9013f243e9",
+					"raw": "https://localhost:5000/workflows/test2_paso1?s1=tantos&s2=99&workflowInstanceId=216bc7dbf6719fa2",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -207,7 +336,42 @@
 						},
 						{
 							"key": "workflowInstanceId",
-							"value": "9286eb9013f243e9"
+							"value": "216bc7dbf6719fa2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test2_2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/workflows/test2_paso1?s1=tantos&s2=99&workflowInstanceId=409815898ef22d09",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"workflows",
+						"test2_paso1"
+					],
+					"query": [
+						{
+							"key": "s1",
+							"value": "tantos"
+						},
+						{
+							"key": "s2",
+							"value": "99"
+						},
+						{
+							"key": "workflowInstanceId",
+							"value": "409815898ef22d09"
 						}
 					]
 				}
@@ -273,6 +437,53 @@
 						"localhost"
 					],
 					"port": "5000",
+					"path": [
+						"elsa",
+						"api",
+						"identity",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setEnvironmentVariable(\"token\", jsonData.accessToken);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://elsaserver.azurewebsites.net/elsa/api/identity/login",
+					"protocol": "https",
+					"host": [
+						"elsaserver",
+						"azurewebsites",
+						"net"
+					],
 					"path": [
 						"elsa",
 						"api",
